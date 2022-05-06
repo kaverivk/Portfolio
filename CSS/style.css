@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+
+.navbar-brand{
+font-size: 2.23rem;
+}
+.navbar-collapse{
+    font-size:1.7em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    }
+
+ 
+.navbar-light{
+    background-color:#38b6ff;
+   
+}
+
+.container .row .col-2{
+    padding-left: 0;
+}
+.Underline{
+    margin-bottom: 40px;
+    display: inline-block;
+    border-bottom:7px solid #38b6ff;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+    
+}
+
+.rating {
+    font-size: 15px;
+}
+
+.clicked {
+    color: #38b6ff;
+}
+.btn{
+    background-color: white;
+    color:#254a5f;
+    font-weight:10px;
+    border: 2px solid #38b6ff;
+}
+.btn:hover{
+    background-color: #38b6ff;
+    color:white;
+    border: 1px solid #254a5f;
+}
+.card-group .card{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin:0 20px 20px 0;  
+    
+ }
+.card{
+    text-align: center;
+    border-radius: 0;   
+    margin:0 20px 20px 0; 
+ 
+}
+.col-2 .card{
+    text-align: center;
+   border:none ;
+    margin:0 20px 20px 0; 
+ transition: transform 1s ;
+}
+
+.card:hover {
+    box-shadow: 3px 5px 7px rgba(109, 108, 108, 0.534), -3px -5px 7px rgba(109, 108, 108, 0.534);
+  }
+   .card-img-top{
+      border-radius: 0;
+      height: 260px;     
+
+  }
+  .inner{
+      overflow: hidden;
+  }
+  .inner img{
+      transition: all 1.5s ease;
+  }
+  .inner:hover img{
+transform: scale(1.4);
+  }  
+  #hide1,#hide2,#hide3{
+      margin-left:25px;
+      padding:5px;
+      border: 1px solid #38b6ff;
+      box-shadow: 2px 2px 2px #38b6ff;
+      background-color: #e175b833;
+
+  }
+ 
+  .arrow{    
+    cursor: pointer;
+  }
+ .arrow:before{
+margin-right: 5px;
+content:url(/Images/right-arrow.png);
+color: #faa9db;
+  }
+   .fab {
+      color:#faa9db;      
+  }
+/*   
+ 
+ 
+   .footer{
+    width:100%;
+    color:#faa9db ;     
+  }  */
+ .text-muted{
+    color: #faa9db !important;
+    text-align: center;   
+    margin-bottom: 0;
+    
+  } 
+ 

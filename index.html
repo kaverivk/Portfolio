@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="bootstrap.css">
+ 
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" href="Images/F.ico" type="image/icon" sizes="32x32">
+
+  <script src="JS/letter.js"></script>
+  <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
+  <script src="JS/jquery-3.6.0.js"></script>
+  <script>
+    $(document).ready(
+      function () {
+        $("#hide1,#hide2,#hide3").hide();
+        $("#slidetoggle1").click(function () { $("#hide1").slideToggle(1000) });
+        $("#slidetoggle1").click(function () { $("#hide2").slideUp() });
+        $("#slidetoggle1").click(function () { $("#hide3").slideUp() });
+
+
+        $("#slidetoggle2").click(function () { $("#hide2").slideToggle(1000) });
+        $("#slidetoggle2").click(function () { $("#hide3").slideUp() });
+        $("#slidetoggle2").click(function () { $("#hide1").slideUp() });
+
+
+        $("#slidetoggle3").click(function () { $("#hide3").slideToggle(1000) });
+        $("#slidetoggle3").click(function () { $("#hide2").slideUp() });
+        $("#slidetoggle3").click(function () { $("#hide1").slideUp() });
+
+        $("#hide4").hide();
+        $("#slidetoggle4").click(function () { $("#hide4").slideToggle(1000) });
+      
+      });
+
+  </script>
+</head>
+
+<body style="background-image:url('Images/background_Img.png')";>
+    
+    <div class="navigation"><!--Navigation Start-->
+      <nav class="navbar fixed-top navbar-light navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="Images/E (1).png" style="border-radius: 100%; width: 100px; height:77px;" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div><!--Navigation End--> 
+  
+    <div class="container"> <!--Hero Section Start-->
+    
+      <div class="row flex-lg-row-reverse align-items-center g-5 " style="margin-top: 40px;">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="Images/Kaveri_Name.png" class="d-block mx-lg-auto img-fluid mt-1" alt="Bootstrap Themes" width="500"
+            height="100" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="font-family: cookie;color:#38b6ff; font-size:2.75rem"></h1>
+          <p class="lead"style="font-size:1.50rem" id="intro"> I am Passionate about creating customized solutions
+          to seeks the position of Front-end Developer in an exciting & growing company.<br><p id="hide4" class="lead" style="font-size:1.50rem">I have spark of interest in web design which pioneer my interest in resourcefulness content.love to play with fonts to color and then animations to transitions makes design even more creative and attractive to me.</p><button type="button" class="btn" id="slidetoggle4">Know More</button>
+          </p> 
+          <div id="education"></div>
+        </div>
+      </div>    
+      
+    </div><!--Hero section End-->
+    
+    <div class="container"><!--Education section start-->
+            <h1 class="Underline" >Education</h1>
+            <div class="row justify-content-center">    
+              <div  id="skill"></div>
+              
+              <div class="col-md-4">
+                  <div class="card" style="width:23rem;height: 27rem;">
+                    <div class="inner">
+                      <img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/4366/2018/10/1/Campus%20view%20of%20Government%20College%20of%20Engineering%20Jalgaon_Campus-View.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body ">
+                      <h5 class="card-title clicked">Government Collage Of Engineering,Jalgoan</h5>
+                      <h6 class="card-text">Percentage:61.00</h6>
+                      <a href="#" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width:23rem;height: 27rem;">
+                    <div class="inner">
+                      <img src="https://www.vidyavision.com/CollegeUploads/Photos/2018-05-1-16-41-42_q.jpg" class="card-img-top"
+                        alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title clicked">Shri.Shiddeshwar Women's Polytechnic, Solapur.</h5>
+                      <h6 class="card-text">Percentage:74.35</h6>
+                      <a href="#" class="btn btn-primary">See More</a>
+
+                    </div>
+                  </div>
+                </div>
+
+                    <div class="col-md-4">
+                      <div class="card " style="width:23rem;height: 27rem;">
+                        <div class="inner">
+                          <img src="https://i.pinimg.com/564x/3d/e8/6e/3de86e47d6d8ce6d7eeccd685edf6981.jpg" class="card-img-top"
+                            alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title clicked">Vidyaniketan High School,Solapur.</h5>
+                          <h6 class="card-text">Percentage:68.91</h6>
+                          <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                      </div>
+                    </div>
+                    
+            
+                  </div>   
+
+    </div>  <!--Education section End--> 
+    
+    <div class="container"><!--Skill section start-->
+      <div id="projects"></div>
+      <h1 class="Underline">Skills</h1>
+      <div class="row">
+
+        <div class="col-xs-6 col-md-4 col-lg-2">
+          <div class="card">
+            <div style="display: flex; justify-content: center;">
+              <img src="Images/H.png" height="100" width="100" style=" border-radius: 100%;" alt="" srcset="">
+            </div>
+            <h3>HTML</h3>
+            <div class="rating">
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div> 
+        </div>
+
+        <div class="col-xs-6 col-md-4 col-lg-2">
+          <div class="card">
+            <div style="display: flex; justify-content: center;">
+              <img src="Images/C1.png" height="100" width="100" style=" border-radius: 100%;" alt="" srcset="">
+            </div>
+            <h3>CSS</h3>
+            <div class="rating">
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-4 col-lg-2">
+          <div class="card ">
+            <div style="display: flex; justify-content: center;">
+              <img src="Images/B.png" height="100" width="100" style=" border-radius: 100%;" alt="" srcset="">
+            </div>
+            <h3>Bootstrap</h3>
+            <div class="rating">
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-4 col-lg-2">
+          <div class="card">
+            <div style="display: flex; justify-content: center;">
+              <img src="Images/J.png" height="100" width="100" style=" border-radius: 100%;" alt="" srcset="">
+            </div>
+            <h3>Javascript</h3>
+            <div class="rating">
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star "></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-4 col-lg-2">
+          <div class="card">
+            <div style="display: flex; justify-content: center;">
+              <img src="Images/R.png" height="100" width="100" style=" border-radius:100%;" alt="" srcset="">
+            </div>
+            <h3>ReactJs</h3>
+            <div class="rating">
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star "></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-4 col-lg-2">
+          <div class="card">
+            <div style="display: flex; justify-content: center;">
+              <img src="Images/C.png" height="100" width="100" style=" border-radius: 0;" alt="" srcset="">
+            </div>
+            <h3>C</h3>
+            <div class="rating">
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star clicked"></i>
+              <i class="fa fa-star "></i>
+              <i class="fa fa-star "></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+         
+        </div>
+
+      </div>
+    </div><!--Skill section end-->
+    
+    <div class="container"><!--project section start-->
+          <h1 class="Underline" id="Projects">Projects</h1>
+
+          <h5 class="arrow">Online book store website using html,css,javascript and bootstrap... <button class="btn" id="slidetoggle1" >see more</button></h5>
+          <p id="hide1">An online book store that allows users to search and purchase a book online based on title, author, and subject.
+            Developed an in-house web application using Node, HTML/CSS that allowed employees to manage monthly
+            subscriptions and increase conversions.</p>
+
+          <h5 id="slidetoggle2" class="arrow">Calculator Built With ReactJS.... <button class="btn" id="slidetoggle2" >see more</button></h5>
+          <p id="hide2">A simple React Calculator for flexible user interface using React Components,Props And States.</p>
+
+
+          <h5 id="slidetoggle3" class="arrow" >FootStep Power Generation Systeam Using MicroController...<button class="btn" id="slidetoggle3" >see more</button></h5>
+          <p id="hide3">Based on Piezoelectric sensor to convert mechanical energy into electrical energy to			
+            Generate power and store in battery for future use.
+   </p>
+
+      
+
+    </div><!--project section end-->
+
+    <div class="container"><!--Contact section start-->
+      <h1 class="Underline" id="contact">Contact Details</h1>
+      <div class="row">
+          <div class="col-6" >
+
+                <div class="d-flex">        
+                    <i class="fa fa-address-book fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i>                
+                  <p>Solapur,Maharashtra</p>
+                </div>
+
+                <div class="d-flex"> 
+                  <i class="fa fa-phone fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i>                
+                  <p>987654321</p>                
+                </div>
+
+                <div class="d-flex"> 
+                    <i class="fa fa-envelope fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i>                
+                    <p>kaveriekunde@gmail.com</p>                
+                </div>
+
+          </div>
+        
+        <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121656.25373209192!2d75.84857611521178!3d17.661620501588374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5d082b54ac5d5%3A0x3c719de6c83710d0!2sSolapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1637053359229!5m2!1sen!2sin"  style="border:0; height:261px; width:425px;" allowfullscreen="" loading="lazy"></iframe>         
+          </div>
+      </div>
+    </div><!--Contact section end-->
+
+    <div class="container"><!--footer section start-->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">       
+          <span class="text-muted" style="color:#38b6ff !important;">© all rights are reserved </span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li><i class="fab fa-linkedin fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i></li>  
+          <li><i class="fab fa-facebook fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i></li>  
+          <li><i class="fab fa-twitter fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i></li>  
+          <li><i class="fab fa-instagram fa-lg me-3 fa-fw fa-x" style="color: #38b6ff;"></i></li>  
+        </ul>
+      </footer>
+    </div><!--footer section end-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
